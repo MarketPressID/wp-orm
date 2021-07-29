@@ -13,12 +13,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3"
+        "php": "^7.2"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "WordPress\\ORM\\": "src"
+            "WordPress\\ORM\\": "src/"
         }
     }
 }
