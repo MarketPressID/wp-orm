@@ -1,0 +1,24 @@
+{
+    "name": "miskat/wp-orm",
+    "description": "WordPress ORM (forked from: https://github.com/brandonwamboldt/wp-orm)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brandon Wamboldt",
+            "email": "brandon.wamboldt@gmail.com"
+        },
+        {
+            "name": "M Ali",
+            "email": "webstoryinc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WordPress\\ORM\\": "src"
+        }
+    }
+}
